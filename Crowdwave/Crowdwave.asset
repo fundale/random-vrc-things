@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
-  m_Name: StageWave
+  m_Name: Crowdwave
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: b8813a54d5149563189b8f1ce4d5b1c3, type: 2}
+  serializedUdonProgramAsset: {fileID: 11400000, guid: b9f356f77212213f0bd2a852f8eb6fe3, type: 2}
   udonAssembly: 
   assemblyError: 
   sourceCsScript: {fileID: 11500000, guid: 6c36e106b47aec72994088f472c356bf, type: 3}
@@ -20,7 +20,7 @@ MonoBehaviour:
   compiledVersion: 2
   behaviourSyncMode: 1
   hasInteractEvent: 0
-  scriptID: 9027680958858452582
+  scriptID: 6542408971280852393
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
@@ -211,13 +211,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: stageWaveMask
+      Data: crowdwaveMask
     - Name: $v
       Entry: 7
       Data: 11|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
-      Data: stageWaveMask
+      Data: crowdwaveMask
     - Name: <UserType>k__BackingField
       Entry: 7
       Data: 12|System.RuntimeType, mscorlib
@@ -265,13 +265,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: _StageWaveMetaID
+      Data: _crowdwaveMetaID
     - Name: $v
       Entry: 7
       Data: 14|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
-      Data: _StageWaveMetaID
+      Data: _crowdwaveMetaID
     - Name: <UserType>k__BackingField
       Entry: 7
       Data: 15|System.RuntimeType, mscorlib
@@ -319,13 +319,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: _StageWaveMaskID
+      Data: _crowdwaveMaskID
     - Name: $v
       Entry: 7
       Data: 17|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
-      Data: _StageWaveMaskID
+      Data: _crowdwaveMaskID
     - Name: <UserType>k__BackingField
       Entry: 9
       Data: 15
@@ -367,13 +367,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: stageWaveMeta
+      Data: crowdwaveMeta
     - Name: $v
       Entry: 7
       Data: 19|UdonSharp.Compiler.FieldDefinition, UdonSharp.Editor
     - Name: <Name>k__BackingField
       Entry: 1
-      Data: stageWaveMeta
+      Data: crowdwaveMeta
     - Name: <UserType>k__BackingField
       Entry: 7
       Data: 20|System.RuntimeType, mscorlib

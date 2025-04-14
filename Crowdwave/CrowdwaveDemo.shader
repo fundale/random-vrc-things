@@ -1,4 +1,4 @@
-Shader "Unlit/StageWaveDemo"
+Shader "Fundale/CrowdwaveDemo"
 {
     Properties
     {
@@ -21,7 +21,7 @@ Shader "Unlit/StageWaveDemo"
             #pragma shader_feature _FRAGCOL
 
             #include "UnityCG.cginc"
-            #include "StageWave.cginc"
+            #include "Crowdwave.cginc"
 
             struct appdata
             {
@@ -92,7 +92,7 @@ Shader "Unlit/StageWaveDemo"
                 
                 o.uv = v.uv;
                 o.pos = v.vertex;
-                o.color = SampleObjectPos(0);
+                o.color = SampleCrowdwave(0);
                 return o;
             }
 
@@ -101,7 +101,7 @@ Shader "Unlit/StageWaveDemo"
 
 #if defined(_FRAGCOL)
 
-                return SampleObjectPos(i.pos);
+                return SampleCrowdwave(i.pos);
             
 #else
                 return i.color;
